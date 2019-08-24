@@ -215,7 +215,7 @@ ul div li:hover{
     
 
     #text{
-        top;250px 
+        top: 250px; 
         position: absolute;
         width: 100%;
         left: auto;
