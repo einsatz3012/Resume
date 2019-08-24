@@ -239,7 +239,7 @@ ul div li:hover{
     #slidebar {
         background-color: #303030;
         align-items: center;  
-        position: static; 
+        position: sticky; 
         top: 0;
         width: 290px;
         height: auto;
