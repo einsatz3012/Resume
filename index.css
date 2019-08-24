@@ -258,18 +258,18 @@ ul div li:hover{
     
 
     .pi{
-        top: 700px;
+        top: 900px;
         left: 25px;
     }
 
     
     .edu{
-        top: 1200px;
+        top: 1400px;
         left: 25px;
     }
 
     .tech{
-        top: 1800px;
+        top: 2000px;
         left: 25px; 
     }
 
@@ -278,17 +278,17 @@ ul div li:hover{
     }
 
     .skill{
-        top: 2250px;
+        top: 2450px;
         left: 25px;
     }
 
     .hobby{
-        top: 2850px;
+        top: 3050px;
         left: 25px;
     }
 
     .contact{ 
-        top: 3150px;
+        top: 3350px;
         left: 25px;    
     }
     
