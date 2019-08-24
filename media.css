@@ -13,7 +13,7 @@
 
     #text{
         top: 150px;
-        width: 530px;
+        width: 100%;
         left: auto;
         font-size: 50px;
         color:white;
@@ -37,7 +37,7 @@
         align-items: center;  
         position: fixed; 
         top: 0;
-        width: 100%;
+        width: 290px;
         height: auto;
         opacity: 1;
     }
