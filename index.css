@@ -1,0 +1,295 @@
+body{
+    background-image: url("wp1828938.jpg");
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 1000px;
+    background-size: cover;
+    background-color: #303030;
+}
+
+#slidebar{
+    position: fixed;
+    margin: 0%;
+    padding: 0%;   
+    width: 195px;
+    height: 100%;
+    background: #303030;
+    top: 250px;
+}
+
+#slidebar li{
+    position: relative;
+    color: whitesmoke;
+    list-style: none;
+    padding: 20px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);  
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+
+#img{
+    background-image:url("i.png");
+    background-repeat: no-repeat;
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    top: 10px;
+    left: 10px;
+    height:250px;
+    width: 177px;
+    opacity:1;
+}
+
+ul div li:hover{
+    background-color:#C3B8A3;
+    color: black;
+}
+
+#text{
+    position: relative;
+    align-content: center;
+    align-items: center;
+    top: 145px;
+    left: 400px;
+    font-size: 50px;
+    color:white;
+    font-family:"Comic Sans MS"; 
+}
+
+.pi{
+    background-color: #303030;
+    width: 100%;
+    height: 500px;
+    top: 1050px;
+    position: absolute;
+    left: 240px;
+}
+
+
+.edu{
+    background-color: #303030;
+    width: 100%;
+    height: 500px;
+    top: 1850px;
+    position: absolute;
+    left: 240px;
+}
+
+.tech{
+    background-color: #303030;
+    width: 100%;
+    height: 500px;
+    top: 2750px;
+    position: absolute;
+    left: 240px; 
+    align: center;
+
+}
+
+#split{
+    column-count: 5;
+    list-style: none;
+    padding: 10px 10px;
+    width: 1400px;
+    color: #ffbb33;
+}
+
+.tech ul li:nth-of-type(even)  i{
+    color: #ff1493;
+}
+
+.tech ul li:nth-of-type(odd)  i{
+    color: #ffbb33;
+}
+
+
+.skill{
+    background-color: #303030;
+    width: 100%;
+    height: 500px;
+    top: 3650px;
+    position: absolute;
+    left: 240px;
+}
+
+.hobby{
+    background-color: #303030;
+    width: 100%;
+    height: 500px;
+    top: 4550px;
+    position: absolute;
+    left: 240px;
+}
+
+.contact{ 
+    background-color:#303030;
+    width: 100%;
+    height: 500px;
+    top: 5550px;
+    position: absolute;
+    left: 40%;
+    display: inline-block;
+
+}
+
+.contact ul{
+    position: absolute;   
+    left: 0%;
+    display: flex;
+}
+
+.contact ul li{
+    margin: 0px 15px;
+    list-style: none;
+    align: center;
+}
+
+.contact ul li a i{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color:whitesmoke;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 5px 5px 4px #303030;
+    
+}
+
+.contact ul li .fa{
+    font: 25px;
+    line-height: 60px;
+    transition: .6s;
+    color:black;  
+}
+
+.contact ul li .fa:hover{
+    background-color: #3b5999;
+    color: white;
+}
+
+.contact ul li a i:hover {
+    transform: translate(0,-10px);
+}
+
+.contact  ul li:nth-child(2) a i:hover{
+    background-color: green;
+}
+
+.contact  ul li:nth-child(3) a i:hover{
+    background-color: #3b5999;
+}
+
+
+.contact  ul li:nth-child(4) a i:hover{
+    background-color: #e44056;
+}
+
+.contact  ul li:nth-child(5) a i:hover{
+    background-color: skyblue;
+}
+
+.contact  ul li:nth-child(6) a i:hover{
+    background-color: #f4c20d;
+}
+
+
+@media only screen and (max-width: 480px){
+
+    body{
+        background-image: none;
+        background-repeat: no-repeat;
+        width: 1000px;
+        height: 1000px;
+        background-size: cover;
+        background-color: #303030;
+    }
+    
+
+    #text{
+        /* top; */
+        position: absolute;
+       width: 100%;
+        left: auto;
+        font-size: 50px;
+        color:white;
+        font-family:"Comic Sans MS"; 
+    }
+
+    #img{
+        list-style: none;
+        background-image:url("i.png");
+        background-repeat: no-repeat;
+        /* position: relative; */
+        height:250px;
+        width: 100%;
+        opacity:1; 
+        left:15px;
+        top: 400px;
+    }    
+    
+    #slidebar {
+        background-color: #303030;
+        align-items: center;  
+        position: fixed; 
+        top: 0;
+        width: 290px;
+        height: auto;
+        opacity: 1;
+    }
+    
+    #slidebar li {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+
+    .pi{
+        top: 700px;
+        left: 25px;
+    }
+
+    
+    .edu{
+        top: 1200px;
+        left: 25px;
+    }
+
+    .tech{
+        top: 1800px;
+        left: 25px; 
+    }
+
+    #split{
+        column-count: 2;
+    }
+
+    .skill{
+        top: 2250px;
+        left: 25px;
+    }
+
+    .hobby{
+        top: 2850px;
+        left: 25px;
+    }
+
+    .contact{ 
+        top: 3150px;
+        left: 25px;    
+    }
+    
+}
